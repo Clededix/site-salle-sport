@@ -21,14 +21,6 @@
 
     {{-- CSS --}}
     <style>
-        *,
-        /* Propriété appliquée sur TOUT les éléments */
-        *::before,
-        *::after body {
-            outline: 1px solid red;
-            box-sizing: border-box;
-        }
-
         body {
             font-family: Arial,
                 sans-serif;
@@ -77,6 +69,4 @@
             color: #007BFF;
         }
     </style>
-
-    </html>
 @endsection

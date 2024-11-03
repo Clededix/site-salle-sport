@@ -24,7 +24,7 @@
         @yield('content')
     </section>
     <footer>
-        <a href="{{ route('mentions-legales') }}">Mentions Légales</a>
+        <a href="{{ route('mentions-legales') }}" class="mention">Mentions Légales</a>
     </footer>
 </body>
 
@@ -66,6 +66,15 @@
     .navbar a:hover {
         text-decoration: underline;
     }
+
+    .mention {
+        display: block;
+        background-color: #333;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
 </style>
 
 </html>
