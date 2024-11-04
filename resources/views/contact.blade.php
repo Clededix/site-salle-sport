@@ -2,6 +2,18 @@
 
 @section('title', 'Titre de la Page')
 
+<head>
+    <title>@yield('title')</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    @yield('styles')
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    @yield('scripts')
+</head>
+
+
+
 @section('content')
     <section>
         <h2>Pour nous contacter</h2>
@@ -11,6 +23,9 @@
         <p>Par courrier :</p>
         <p>5 Boulevard Louis XIV</p>
         <p>59800 Lille</p>
+        <br>
+        <h2>Notre emplacement</h2>
+        <div id="map"></div>
         <br>
         <h2>Pour nous écrire ici</h2>
         <form method="get" action="#">
@@ -24,7 +39,7 @@
             </div>
             <div class="formulaire">
                 <label for="demand">Objet de la demande :</label><br>
-                <input type="text" name="message" id="demand"></text>
+                <input type="text" name="message" id="demand"></input>
             </div>
             <div class="formulaire">
                 <label for="message">Message :</label><br>
@@ -34,7 +49,6 @@
                 <input type="submit" value="Envoyer" class="bouton-envoi">
             </div>
         </form>
-    </section>
     </section>
 
     <style>
@@ -59,12 +73,30 @@
             background-color: gray;
         }
 
-        h2{
+        h2 {
             margin: 40px;
         }
 
         p {
             margin-left: 20px
         }
+
+        #map {
+            height : 200px;
+            width: 100%;
+        }
     </style>
+
+    <script>
+        var map = L.map('map').setView([50.628726, 3.071487], 13);
+    
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var marker = L.marker([50.628726, 3.071487]).addTo(map)
+            .bindPopup('Notre bureau')
+            .openPopup();
+    </script>
 @endsection
