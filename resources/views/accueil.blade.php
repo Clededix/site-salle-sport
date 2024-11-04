@@ -31,11 +31,11 @@
             padding: 20px;
             background-image: url(/img/SNAIL_climbing.jpg);
             background-size: 100%;
-            background-repeat: no-repeat;
-            box-sizing: border-box;
-            display: block;
-            max-width: 100%;
-            object-fit: cover;
+            /* background-repeat: no-repeat;
+            box-sizing: border-box; */
+            /* display: block; */
+            /* max-width: 100%; */
+            /* object-fit: cover; */
         }
 
         .container {
