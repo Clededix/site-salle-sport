@@ -15,7 +15,7 @@
 
 
 @section('content')
-    <section>
+    <section class="container">
         <h2>Pour nous contacter</h2>
         <p>Par téléphone :</p>
         <p>60 00 00 00 00</p>
@@ -27,7 +27,7 @@
         <h2>Notre emplacement</h2>
         <div id="map"></div>
         <br>
-        <h2>Pour nous écrire ici</h2>
+        <h2>Pour nous écrire c'est ici</h2>
         <form method="get" action="#">
             <div class="formulaire">
                 <label for="nom">Votre nom :</label><br>
@@ -52,6 +52,38 @@
     </section>
 
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url(/img/SNAIL_help_each_other.jpg);
+            background-size: 110%;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            /* Ajout d'un espacement supérieur */
+            padding: 20px;
+            /* Augmentation du padding pour plus d'espace interne */
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+
+        h2 {
+            margin: 40px 0;
+            /* Espacement supérieur et inférieur */
+        }
+
+        p {
+            margin-left: 20px;
+        }
+
         .formulaire input,
         .formulaire textarea {
             width: 100%;
@@ -73,23 +105,20 @@
             background-color: gray;
         }
 
-        h2 {
-            margin: 40px;
-        }
-
-        p {
-            margin-left: 20px
+        #map {
+            height: 200px;
+            width: 100%;
         }
 
         #map {
-            height : 200px;
+            height: 200px;
             width: 100%;
         }
     </style>
 
     <script>
         var map = L.map('map').setView([50.628726, 3.071487], 13);
-    
+
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
