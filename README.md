@@ -49,9 +49,9 @@ npm run dev
 All done
 
 
-Notes :
-This project is not what it was supposed to be. I coulnd't find out why the style and script files wouldn't work (stylizing the web pages). BUT while I was correcting a few mistakes an rerereading the instructions, I finally understood why... I didn't linked my blade files with parent/child relation with the @yield or @section/@endsection tags, leaving the content empty. Instead I've written again and again the HTML CSS code not using one of the Laravel's coolest tool ever ! I won't correct my mistake because now that I understand why, I don't consider it like an issue. Next time, I won't make this same mistake hehehe
+Notes to Daichi :)
 
-- br CSS
-- fond à améliorer
-img too heavy
+This project is not what it was supposed to be. I coulnd't find out why the style and script files wouldn't work (stylizing the web pages). BUT while I was correcting a few mistakes an rerereading the instructions, I finally understood why... I didn't linked my blade files with parent/child relation with the @yield or @section/@endsection tags, leaving the content empty. Instead I've written again and again the HTML CSS code not using one of the Laravel's coolest tool ever ! I won't correct my mistake because now that I understand why, I don't consider it like an issue. Next time, I won't make this same mistake hehehe
+Another mistakes that I'll correct : 
+- <br> tags to transform into margin/padding in CSS,
+- the images are to be cut because they are too heavy.
