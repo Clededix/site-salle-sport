@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Str;
 
+/* indiquer InnoDB quelquepart dans ce fichier */
+
 return [
 
     /*

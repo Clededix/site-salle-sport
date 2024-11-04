@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'Titre de la Page')
+@section('title', 'Sport en salle')
 
 @section('content')
 

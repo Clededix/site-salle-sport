@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'Titre de la Page')
+@section('title', 'Sport en salle')
 
 @section('styles')
     <link rel="stylesheet" href="{{ asset('public/style_tarif.css') }}">
