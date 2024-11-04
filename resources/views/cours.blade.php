@@ -14,10 +14,9 @@
                 <p><strong>Mardi :</strong> 19h30 à 21h30 - Escalade sur blocs</p>
                 <p><strong>Mercredi :</strong> 9h à 11h - Yoga streching</p>
                 <p><strong>Jeudi :</strong> 20h à 22h - Boxe d'antennes</p>
-                <p><strong>Vendredi :</strong> 20h à 22h - HIIT & GpIDE</p>
+                <p><strong>Vendredi :</strong> 20h à 22h - HIIT & GLIIDE</p>
                 <p><strong>Samedi :</strong> 11h à 13h - Course sur tapis de feuilles</p>
                 <p><strong>Dimanche :</strong> 19h30 à 21h30 - Pilates sur branches</p>
-
             </div>
         </section>
     </body>

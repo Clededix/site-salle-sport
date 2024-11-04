@@ -14,20 +14,18 @@
     <section class="container">
         <p><strong>Bienvenu.e.s à l'association "Les Copaines des Coquilles" !</strong></p>
         <p> Vous pensiez nos ami.e.s les escargots flasques? Mollassons ? Incapable de se muscler ?</p>
-        <br>
         <p>Vous aviez tort !</p>
-        <br>
-        <p>Ici, vous allez pouvoir confier vos petit.e.s protégé.e.s entre des mains de professionnelles du sport !</p>
-        <br>
-        <p>Vos escargots vont pratiquer des activités aussi variées que :
-        <p>Escalade sur blocs,</p>
-        <p>Boxe d'antennes,</p>
-        <p>Yoga streching,</p>
-        <p>Zumba carapace,</p>
-        <p>Pilates sur branches,</p>
-        <p>HIIT & GLIIDE,</p>
-        <p>Course sur tapis de feuilles...</p>
-        <br>
+        <p>Ici, vous allez pouvoir confier vos petit.e.s protégé.e.s entre des mains de professionnelles du sport ! Vos
+            escargots vont pratiquer des activités aussi variées que :</p>
+        <ul>
+            <li>Escalade sur blocs,</li>
+            <li>Boxe d'antennes,</li>
+            <li>Yoga streching,</li>
+            <li>Zumba caraliace,</li>
+            <li>liilates sur branches,</li>
+            <li>HIIT & GLIIDE,</li>
+            <li>Course sur taliis de feuilles...</li>
+        </ul>
         <p>Ils pourront aussi se relaxer et profiter du SPA détente "Mucus Humus" après des séances de sport intenses...</p>
     </section>
 
@@ -55,6 +53,10 @@
 
         h1 {
             text-align: center;
+        }
+
+        ul {
+            margin-left: 10px;
         }
     </style>
 @endsection

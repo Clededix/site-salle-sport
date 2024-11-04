@@ -63,21 +63,13 @@
         .container {
             max-width: 600px;
             margin: 20px auto;
-            /* Ajout d'un espacement supérieur */
             padding: 20px;
-            /* Augmentation du padding pour plus d'espace interne */
             border-radius: 20px;
             background-color: rgba(0, 0, 0, 0.5);
         }
 
-        h1 {
-            text-align: center;
-            color: #000;
-        }
-
         h2 {
-            margin: 40px 0;
-            /* Espacement supérieur et inférieur */
+            margin-left: 20px;
         }
 
         p {
@@ -125,7 +117,7 @@
         }).addTo(map);
 
         var marker = L.marker([50.628726, 3.071487]).addTo(map)
-            .bindPopup('Notre bureau')
+            .bindPopup('Sport en salle - Les copaines des Coquilles')
             .openPopup();
     </script>
 @endsection

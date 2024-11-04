@@ -22,7 +22,7 @@
             <p>Droits d'auteur : Tous les contenus de ce site sont protégés par des droits d'auteur. Toute reproduction est
                 interdite sans autorisation préalable.</p>
             <br>
-            <p>Contact : Pour toute question, veuillez nous contacter à l'adresse : contact@associationxyz.fr</p>
+            <p>Contact : Pour toute question, veuillez nous contacter à l'adresse : contact@sportcoquille.fr</p>
         </div>
     </body>
 
