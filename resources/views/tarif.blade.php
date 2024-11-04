@@ -9,7 +9,7 @@
 @section('content')
     <h1>Les tarifs</h1>
     <section class="container">
-        <div class="price-list">
+        <div>
             <p><strong>Adhésion annuelle à l'association 'Les ami.e.s des coquilles' : 15 €</strong></p>
             <p><strong>Une séance : 10 €</strong></p>
             <p><strong>Le carnet de 10 séances : 90 €</strong></p>
@@ -20,7 +20,6 @@
         </div>
     </section>
 
-    {{-- CSS --}}
     <style>
         body {
             font-family: Arial, sans-serif;
