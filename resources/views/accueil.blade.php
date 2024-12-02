@@ -4,6 +4,11 @@
 
 @section('style')
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 @endsection
 
 @section('content')
@@ -19,13 +24,11 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Chakra Petch", Arial, sans-serif;
             margin: 0;
             padding: 20px;
             background-image: url('{{ asset('img/regard.jpg') }}');
             background-size: 100%;
-            background-position: center;
-
             background-repeat: no-repeat;
             box-sizing: border-box;
             display: block;
@@ -43,6 +46,10 @@
 
         h1 {
             text-align: center;
+        }
+
+        p {
+            font-family: "Chakra Petch", Arial, sans-serif; /* Pour garantir que le texte dans les paragraphes utilise cette police */
         }
 
         ul {

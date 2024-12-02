@@ -56,7 +56,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: url(/img/SNAIL_help_each_other.jpg);
+            background-image: url('{{ asset('img/contact.jpg') }}');
             background-size: 110%;
         }
 

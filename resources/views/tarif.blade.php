@@ -24,7 +24,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: url(/img/SNAIL_climbing.jpg);
+            background-image: url('{{ asset('img/alteres.jpg') }}');
             background-size: 100%;
             background-repeat: no-repeat;
             box-sizing: border-box;

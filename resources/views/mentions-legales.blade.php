@@ -8,7 +8,8 @@
         <div class="container">
             <h1>Mentions légales</h1>
             <br>
-            <p><i>page en cours de rédaction</i></p>
+            <p>Informations légales et confidentialité
+                Afin de garantir une transparence totale, cette page vous fournit toutes les informations nécessaires concernant l’utilisation de notre site. Vous y trouverez nos mentions légales, ainsi que les informations relatives à la collecte et à l’utilisation de vos données personnelles. Votre sécurité et votre confiance sont au cœur de nos préoccupations.</p>
             <p>Nom de l'association</p>
             <p>Siège social</p>
             <p>Numéro SIRET</p>
