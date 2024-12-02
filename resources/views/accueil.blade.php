@@ -8,25 +8,13 @@
 
 @section('content')
 
-
-@section('content')
-    <h1><strong>Accueil</strong></h1>
+    <h1><strong>Bienvenue dans votre salle de sport !</strong></h1>
     <section class="container">
-        <p><strong>Bienvenu.e.s à l'association "Les Copaines des Coquilles" !</strong></p>
-        <p> Vous pensiez nos ami.e.s les escargots flasques? Mollassons ? Incapable de se muscler ?</p>
-        <p>Vous aviez tort !</p>
-        <p>Ici, vous allez pouvoir confier vos petit.e.s protégé.e.s entre des mains de professionnelles du sport ! Vos
-            escargots vont pratiquer des activités aussi variées que :</p>
-        <ul>
-            <li>Escalade sur blocs,</li>
-            <li>Boxe d'antennes,</li>
-            <li>Yoga streching,</li>
-            <li>Zumba caraliace,</li>
-            <li>liilates sur branches,</li>
-            <li>HIIT & GLIIDE,</li>
-            <li>Course sur taliis de feuilles...</li>
-        </ul>
-        <p>Ils pourront aussi se relaxer et profiter du SPA détente "Mucus Humus" après des séances de sport intenses...</p>
+        <p>Découvrez un lieu où vos objectifs prennent vie !</p>
+        <p>Nos équipements modernes, notre large choix de programmes et un encadrement professionnel
+            sont à votre service pour vous accompagner dans chaque étape de votre parcours sportif.</p>
+        <p>Que vous soyez débutant.e.s ou confirmé.e.s, venez vous dépasser dans une ambiance conviviale et motivante.</p>
+        <p>Rejoignez-nous !</p>
     </section>
 
     <style>
@@ -34,8 +22,10 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: url(/img/SNAIL_help_each_other.jpg);
+            background-image: url('{{ asset('img/regard.jpg') }}');
             background-size: 100%;
+            background-position: center;
+
             background-repeat: no-repeat;
             box-sizing: border-box;
             display: block;
@@ -59,4 +49,5 @@
             margin-left: 10px;
         }
     </style>
+
 @endsection

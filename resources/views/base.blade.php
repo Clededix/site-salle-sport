@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>Sport en salle</h1>
+        <h1>Salle de sport</h1>
         <nav class="navbar">
             <a href="{{ route('accueil') }}">Accueil</a>
             <a href="{{ route('cours') }}">Cours</a>
@@ -37,6 +37,8 @@
     h1 {
         display: flex;
         justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 50px;
     }
     .navbar {
         background-color: #333;
