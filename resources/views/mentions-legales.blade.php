@@ -9,7 +9,10 @@
             <h1>Mentions légales</h1>
             <br>
             <p>Informations légales et confidentialité
-                Afin de garantir une transparence totale, cette page vous fournit toutes les informations nécessaires concernant l’utilisation de notre site. Vous y trouverez nos mentions légales, ainsi que les informations relatives à la collecte et à l’utilisation de vos données personnelles. Votre sécurité et votre confiance sont au cœur de nos préoccupations.</p>
+                Afin de garantir une transparence totale, cette page vous fournit toutes les informations nécessaires
+                concernant l’utilisation de notre site. Vous y trouverez nos mentions légales, ainsi que les informations
+                relatives à la collecte et à l’utilisation de vos données personnelles. Votre sécurité et votre confiance
+                sont au cœur de nos préoccupations.</p>
             <p>Nom de l'association</p>
             <p>Siège social</p>
             <p>Numéro SIRET</p>
@@ -37,11 +40,14 @@
         }
 
         .container {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            border-radius: 5px;
+            margin: 30px auto;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.8);
+            align-items: center;
         }
 
         h1 {

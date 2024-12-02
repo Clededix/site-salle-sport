@@ -6,8 +6,13 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <script src="{{ asset('js/app.js') }}" defer></script>
-    
+</head>
 
 <body>
     <header>
@@ -30,16 +35,20 @@
 
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: "Chakra Petch", Arial, sans-serif;
         margin: 0;
     }
 
-    h1 {
+    h1, h2 {
         display: flex;
         justify-content: center;
-        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    h1 {
         padding: 50px;
     }
+
     .navbar {
         background-color: #333;
         padding: 10px 0;
@@ -76,7 +85,6 @@
         margin: 10px;
         text-align: center;
     }
-
 </style>
 
 </html>

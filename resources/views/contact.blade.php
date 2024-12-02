@@ -61,11 +61,14 @@
         }
 
         .container {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            border-radius: 5px;
+            margin: 30px auto;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.8);
+            align-items: center;
         }
 
         h2 {

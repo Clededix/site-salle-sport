@@ -13,7 +13,7 @@
 
 @section('content')
 
-    <h1><strong>Bienvenue dans votre salle de sport !</strong></h1>
+    <h1>Bienvenue dans votre salle de sport !</h1>
     <section class="container">
         <p>Découvrez un lieu où vos objectifs prennent vie !</p>
         <p>Nos équipements modernes, notre large choix de programmes et un encadrement professionnel
@@ -29,6 +29,7 @@
             padding: 20px;
             background-image: url('{{ asset('img/regard.jpg') }}');
             background-size: 100%;
+            background-position: center;
             background-repeat: no-repeat;
             box-sizing: border-box;
             display: block;
@@ -37,11 +38,14 @@
         }
 
         .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            border-radius: 5px;
+            margin: 30px auto;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.8);
+            align-items: center;
         }
 
         h1 {
@@ -49,7 +53,8 @@
         }
 
         p {
-            font-family: "Chakra Petch", Arial, sans-serif; /* Pour garantir que le texte dans les paragraphes utilise cette police */
+            font-family: "Chakra Petch", Arial, sans-serif;
+            /* Pour garantir que le texte dans les paragraphes utilise cette police */
         }
 
         ul {

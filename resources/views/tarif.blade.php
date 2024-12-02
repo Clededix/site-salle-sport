@@ -10,7 +10,7 @@
     <h1>Les tarifs</h1>
     <section class="container">
         <div>
-            <p><strong>Adhésion annuelle à l'association "Les Copaines des Coquilles" : 15 €</strong></p>
+            <p><strong>Adhésion annuelle à la salle : 25 €</strong></p>
             <p><strong>Une séance : 10 €</strong></p>
             <p><strong>Le carnet de 10 séances : 90 €</strong></p>
             <p><strong>Abonnement mensuel illimité sans cours : 30 €</strong></p>
@@ -31,11 +31,14 @@
         }
 
         .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 30px;
-            border-radius: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            border-radius: 5px;
+            margin: 30px auto;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.8);
+            align-items: center;
         }
 
         h1 {

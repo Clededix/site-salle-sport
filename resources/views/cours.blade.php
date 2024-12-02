@@ -7,7 +7,7 @@
     <body>
         <section class="container">
             <div>
-                <h1>Les cours</h1>
+                <h2>Les cours</h2>
             </div>
             <div>
                 <p><strong>Lundi :</strong> 19h à 21h - Zumba</p>
@@ -38,8 +38,8 @@
             width: 70%;
             border-radius: 5px;
             margin: 30px auto;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.8);
             align-items: center;
         }
     </style>
