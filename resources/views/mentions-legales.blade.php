@@ -35,8 +35,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: url(/img/SNAIL_equilibre.jpg);
-            background-size: 110%;
+            background-image: url('{{ asset('img/falling.jpg') }}');
+            background-size: 30%;
+            background-position: bottom;
         }
 
         .container {

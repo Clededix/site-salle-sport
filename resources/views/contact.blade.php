@@ -56,8 +56,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: url('{{ asset('img/contact.jpg') }}');
-            background-size: 110%;
+            background-image: url('{{ asset('img/poids.jpg') }}');
+            background-size: 120%;
+            background-repeat: no-repeat;
         }
 
         .container {
