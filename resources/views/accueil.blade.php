@@ -54,7 +54,6 @@
 
         p {
             font-family: "Chakra Petch", Arial, sans-serif;
-            /* Pour garantir que le texte dans les paragraphes utilise cette police */
         }
 
         ul {

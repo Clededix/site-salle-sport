@@ -22,7 +22,7 @@
             <a href="{{ route('cours') }}">Cours</a>
             <a href="{{ route('tarif') }}">Tarifs</a>
             <a href="{{ route('contact') }}">Contact</a>
-            <a href="{{ route('mentions-legales') }}">Mentions Légales</a>
+            {{-- <a href="{{ route('mentions-legales') }}">Mentions Légales</a> --}}
         </nav>
     </header>
     <section id="content">
