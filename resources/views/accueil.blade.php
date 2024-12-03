@@ -17,7 +17,7 @@
     <section class="container">
         <p>Découvrez un lieu où vos objectifs prennent vie !</p>
         <p>Nos équipements modernes, notre large choix de programmes et un encadrement professionnel
-            sont à votre service pour vous accompagner dans chaque étape de votre parcours sportif.</p>
+            sont à votre service pour vous accompagner<br>dans chaque étape de votre parcours sportif.</p>
         <p>Que vous soyez débutant.e.s ou confirmé.e.s, venez vous dépasser dans une ambiance conviviale et motivante.</p>
         <p>Rejoignez-nous !</p>
     </section>
@@ -54,6 +54,7 @@
 
         p {
             font-family: "Chakra Petch", Arial, sans-serif;
+            text-align: center
         }
 
         ul {
